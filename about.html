@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" <?php language_attributes(); ?>>
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" <?php language_attributes(); ?>>
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html>
+<!--<![endif]-->
+<head>
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="Midnight Static is an electronic synth rock band based out of Boston, MA.">
+	<meta name="keywords" content="Midnight Static, Electronic, Synth Rock, Midnight Static Boston, midnight static band, Synthpop">
+  <meta property="og:image" content="http://midnightstatic.com/images/band-2.jpg"/>
+	<title>Midnight Static - About</title>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="js/jquery-1.11.1.min.js"></script>
+
+	<script>
+        $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+        </script>
+
+	<script type="text/javascript">
+	$(document).ready(function(){       
+   var scroll_start = 0;
+   var startchange = $('#color-change');
+   var offset = startchange.offset();
+    if (startchange.length){
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+         $(".main").css('background-color', '#f0f0f0');
+          $(".amain").css('color', '#160344');
+          $(".bandcamp").css('background-position', '0 -13px');
+       } else {
+          $('.main').css('background-color', 'transparent');
+          $(".amain").css('color', '#fff');
+          $(".bandcamp").css('background-position', '0 0');
+       }
+   });
+    }
+});
+	</script>
+	  <script>
+        $(document).ready(function() {
+            $(".responsive").hide();
+            $(".menu").on("click", function(){
+                $(".responsive").fadeToggle();
+                event.preventDefault();
+                });
+            $(".nav-itemb").on("click", function() {
+                $(".responsive").hide();
+                event.preventDefault();
+            });
+        });
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59926593-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+<body>
+	<nav class="main">  
+		<div class="left-nav">  
+			<a href="index.html" class="amain">Home</a>    
+          <a href="index.html#music" class="amain">Music</a>
+          <a href="about.html" class="amain">About</a>
+          <a href="index.html#shows" class="amain">Shows</a>
+          <a href="index.html#contact" class="amain">Contact</a>
+          <a href="photos.html" class="amain">Photos</a>
+        </div>
+
+      	<div class="social">
+      		<a href="https://www.facebook.com/midnightstaticband" class="amain"><i class="fa fa-facebook fa-lg"></i></a>
+      		<a href="http://www.twitter.com/12AMStatic" class="amain"><i class="fa fa-twitter fa-lg"></i></a>
+      		<a href="https://soundcloud.com/midnightstaticband" class="amain"><i class="fa fa-soundcloud fa-lg"></i></a>
+      		<a href="https://vimeo.com/midnightstatic" class="amain"><i class="fa fa-vimeo-square fa-lg"></i></a>
+          <a href="http://midnightstaticband.bandcamp.com/" class="amain bandcamp"></a>
+      	</div>
+	</nav>
+	<div id="responsive-nav">
+            <p><a href="#" class="menu">MENU</a></p>
+              <ul class="responsive">
+                <li><a href="index.html#header" class="nav-item">Home</a></li> 
+            <li><a href="index.html#music" class="nav-item">Music</a></li> 
+            <li><a href="about.html" class="nav-item">About</a></li> 
+            <li><a href="index.html#shows" class="nav-item">Shows</a></li> 
+            <li><a href="index.html#contact" class="nav-item">Contact</a></li> 
+            <li><a href="photos.html" class="nav-item">Photos</a></li> 
+            </ul>
+        </div>
+
+<div class="container">
+	<section id="about">
+    <h1>About Midnight Static</h1>
+	</section>
+  <div id="color-change"></div>
+  <section id="about-bio">
+    <p><b>Midnight Static</b> is an electronic synth rock band based out of Boston, MA. Filled with layers of catchy melodies and sweeping chord changes, along with nuances of 70's Prog Rock, 80's New Wave and current electronic pop acts such as CHVRCHES and Cut Copy, the music of Midnight Static stirs up moments of nostalgia while hinting at the future of electronic dance rock.</p>
+<p>Formed in the winter of 2014 and armed with a handful of songs by songwriter and synth player Steven Borek, Midnight Static were born out of a desire to write engaging electronic dance songs that would get the crowds up on their feet and moving, yet which would retain a pop-rock feel in their intensity and live delivery. <i>"There are so many great guitar based rock bands in and around Boston already and I thought to myself 'Hey, I really like playing rock music, but I don't see a lot of dancing at these shows..."</i> says Borek. <i>"Why not try this with synths instead of guitars and change up the rhythms a bit, and maybe I can get people to enjoy both the energy of rock music and encourage them to dance at the same time?"</i></p>
+<p>As the year 2014 progressed, Borek carefully constructed the band from persons of various musical backgrounds who would each add something special to an already unique sound: the effervescent Jason Kaplan on drums, certified 80's nut Kate Lindsay on synths, the dynamic Jake O'Donnell on bass, and the powerful and engaging voice of vocalist Shannon Spreen.</p>
+<p>Midnight Static debuted in January 2015 to a packed house at the Last Safe & Deposit Company in Lowell, MA, and are in the process of recording their first single, "Illusions of the Mind", to be released in late February 2015.</p>
+  </section>
+</div>
+
+		<footer>
+			<p>&copy; 2015 Midnight Static. All rights reserved.</p>
+		</footer><!-- #colophon -->
+
+</body>
+</html>
