@@ -48,19 +48,9 @@ p {
 		height: auto;
 		margin-top: 250px;
 
-			@media screen and (max-width: 610px) {
-				width: 450px;
-				height: 263px;
-			}
-
-			@media screen and (max-width: 450px) {
-				width: 350px;
-				height: 204px;
-			}
-
-			@media screen and (max-width: 400px) {
-				width: 290px;
-				height: 169px;
+			@media screen and (max-width: 815px) {
+				width: 80%;
+				height: auto;
 			}
 	}
 

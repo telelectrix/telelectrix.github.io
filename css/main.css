@@ -287,18 +287,10 @@ p {
     width: 800px;
     height: auto;
     margin-top: 250px; }
-    @media screen and (max-width: 610px) {
+    @media screen and (max-width: 815px) {
       #header img {
-        width: 450px;
-        height: 263px; } }
-    @media screen and (max-width: 450px) {
-      #header img {
-        width: 350px;
-        height: 204px; } }
-    @media screen and (max-width: 400px) {
-      #header img {
-        width: 290px;
-        height: 169px; } }
+        width: 80%;
+        height: auto; } }
   #header p {
     color: #fff;
     width: 620px;
