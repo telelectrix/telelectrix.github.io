@@ -40,9 +40,9 @@
 }
 .slides-navigation a {
   position: absolute;
-  font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Dosis', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  background-color: #6a37c6;
+  background-color: #2f3790;
   padding: 10px 10px 8px 10px;
   color: #fff;
   text-decoration:none;
@@ -51,7 +51,7 @@
 
 .slides-navigation a:hover {
   background-color: #fff;
-  color: #6a37c6;
+  color: #2f3790;
 }
 
 .slides-navigation a.prev {
