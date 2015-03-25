@@ -291,6 +291,9 @@ p {
       #header img {
         width: 80%;
         height: auto; } }
+    @media screen and (max-width: 710px) {
+      #header img {
+        margin-top: 200px; } }
   #header p {
     color: #fff;
     width: 620px;
@@ -305,7 +308,7 @@ p {
     @media screen and (max-width: 400px) {
       #header p {
         width: 280px; } }
-  @media screen and (max-width: 610px) {
+  @media screen and (max-width: 710px) {
     #header {
       height: 450px; } }
 

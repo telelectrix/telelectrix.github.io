@@ -52,6 +52,10 @@ p {
 				width: 80%;
 				height: auto;
 			}
+
+			@media screen and (max-width: 710px) {
+				margin-top: 200px;
+			}
 	}
 
 	p {
@@ -79,7 +83,7 @@ p {
 	width: 100%;
 	text-align: center;
 
-	@media screen and (max-width: 610px) {
+	@media screen and (max-width: 710px) {
 		height: 450px;
 	}
 
