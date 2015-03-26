@@ -466,7 +466,7 @@ p {
     top: 13px;
     left: 0;
     opacity: 0;
-    color: #2f3790;
+    color: #000;
     -webkit-transform: translate3d(0, 25%, 0);
     transform: translate3d(0, 25%, 0); }
   #photos-header .button--winona > span {
@@ -474,7 +474,7 @@ p {
   #photos-header .button--winona.button--inverted {
     color: #fff; }
   #photos-header .button--winona.button--inverted:after {
-    color: #2f3790; }
+    color: #000; }
   #photos-header .button--winona::after,
   #photos-header .button--winona > span {
     -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -482,10 +482,10 @@ p {
     -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
     transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1); }
   #photos-header .button--winona:hover {
-    border-color: #2f3790;
+    border-color: #000;
     background-color: none; }
   #photos-header .button--winona.button--inverted:hover {
-    border-color: #2f3790;
+    border-color: #000;
     background-color: none; }
   #photos-header .button--winona:hover::after {
     opacity: 1;

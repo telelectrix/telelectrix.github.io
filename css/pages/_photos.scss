@@ -88,7 +88,7 @@
 		top: 13px;
 		left: 0;
 		opacity: 0;
-		color: $dark-purple;
+		color: #000;
 		-webkit-transform: translate3d(0, 25%, 0);
 		transform: translate3d(0, 25%, 0);
 	}
@@ -99,7 +99,7 @@
 		color: #fff;
 	}
 	.button--winona.button--inverted:after {
-		color: $dark-purple;
+		color: #000;
 	}
 	.button--winona::after,
 	.button--winona > span {
@@ -109,11 +109,11 @@
 		transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
 	}
 	.button--winona:hover {
-		border-color: $dark-purple;
+		border-color: #000;
 		background-color: none;
 	}
 	.button--winona.button--inverted:hover {
-		border-color: $dark-purple;
+		border-color: #000;
 		background-color: none;
 	}
 	.button--winona:hover::after {
