@@ -362,6 +362,9 @@ p {
   width: 70%;
   margin: auto; }
 
+.soundcloud {
+  margin-bottom: 50px; }
+
 #about {
   color: #fff;
   background: url("../images/ms_photo.jpg") no-repeat center center fixed;
