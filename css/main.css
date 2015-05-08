@@ -362,6 +362,10 @@ p {
   width: 70%;
   margin: auto; }
 
+#music p {
+  margin: 0 auto 15px;
+  padding: 0 15px; }
+
 .soundcloud {
   margin-bottom: 50px; }
 
