@@ -39,6 +39,16 @@ p {
 		}
 }
 
+.download {
+	display: block;
+	padding: 20px 30px;
+	background-color: #fff;
+	color: $purple;
+	text-decoration: none;
+	width: 160px;
+	margin: 15px auto 0;
+}
+
 #header {
 
 	img {
@@ -46,7 +56,7 @@ p {
 		margin: auto;
 		width: 800px;
 		height: auto;
-		margin-top: 250px;
+		margin-top: 200px;
 
 			@media screen and (max-width: 815px) {
 				width: 80%;
@@ -79,7 +89,7 @@ p {
 
 	background: url('../images/header-bg.jpg') no-repeat center center fixed;
 	background-size: cover;
-	height: 600px;
+	height: 650px;
 	width: 100%;
 	text-align: center;
 
