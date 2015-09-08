@@ -681,6 +681,14 @@ header {
 					top: 360px;
 					left: 275px;
 				}
+
+				@media screen and (max-width: 880px) {
+					width: 24px;
+					height: auto;
+					left: 75%;
+					top: 350px;
+					margin: 0 0 0 -12px;
+				}
 			}
 
 			.whitestar1 {

@@ -863,6 +863,13 @@ header {
         .get-rewards .right .yellowstar5 {
           top: 360px;
           left: 275px; } }
+      @media screen and (max-width: 880px) {
+        .get-rewards .right .yellowstar5 {
+          width: 24px;
+          height: auto;
+          left: 75%;
+          top: 350px;
+          margin: 0 0 0 -12px; } }
     .get-rewards .right .whitestar1 {
       top: 0;
       left: 310px;
