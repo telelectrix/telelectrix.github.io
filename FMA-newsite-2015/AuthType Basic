@@ -1,4 +1,0 @@
-AuthType Basic  
-AuthName "restricted area"  
-AuthUserFile /telelectrix.github.io/FMA-newsite-2015/.htpasswd  
-require valid-user

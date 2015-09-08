@@ -1,1 +1,0 @@
-<?php  //Gets the document root  $root = getenv("DOCUMENT_ROOT") ;  Echo $root;  ?>
