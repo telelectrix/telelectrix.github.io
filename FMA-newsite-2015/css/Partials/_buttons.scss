@@ -1,0 +1,25 @@
+.main-button {
+	@include border-radius(8px);
+	@include box-shadow(2px, 2px, 0, darken($primary-color, 20%));
+	margin: 0;
+	padding: 15px 30px;
+	height: 60px;
+	background-color: $primary-color;
+	font-size: 1.5em;
+	text-decoration: none;
+	text-align: center;
+	color: $dark-gray;
+	font-family: 'Lato', sans-serif;
+	font-weight: light;
+	border: none;
+	cursor: pointer;
+	line-height: 1;
+
+	&:hover {
+		background-color: darken($primary-color, 10%);
+	}
+
+	@media screen and (max-width: 750px) {
+		font-size: 1.25em;
+	}
+}

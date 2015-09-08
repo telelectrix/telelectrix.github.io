@@ -1,0 +1,92 @@
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@import 'Partials/variables';
+@import 'Partials/mixins';
+@import 'Partials/buttons';
+@import 'Pages/navigation';
+@import 'Pages/footer';
+@import 'Pages/index';
+@import 'Pages/advertise';
+@import 'Pages/casestudy';
+@import 'Pages/terms';
+
+body, .advertise-body {
+	font-family: $primary-font;
+	font-size: 1em;
+	font-weight: light;
+}
+
+a {
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: normal;
+	margin: 0 auto .5em;
+	padding: 0;
+
+	@media screen and (max-width: 750px) {
+		font-size: 2.5em;
+	}
+}
+
+h2 {
+	font-size: 2.25em;
+	font-weight: normal;
+	margin: 0 auto .5em;
+	padding: 0;
+
+	@media screen and (max-width: 750px) {
+		font-size: 1.75em;
+	}
+}
+
+h3 {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+p {
+	font-size: 1em;
+	margin: 0 0 .75em 0;
+	padding: 0;
+	line-height: 1.7em;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.index-container {
+	margin: 0 auto;
+	box-sizing: border-box;
+
+	@media screen and (min-width: 1000px) {
+		max-width: 1000px;
+		padding: 2em;
+			}
+
+	@media screen and (max-width: 1000px) {
+		padding: 2.75em 2em;
+		box-sizing: border-box;
+	}
+}
+
+.container {
+	margin: 0 auto;
+
+	@media screen and (min-width: 1000px) {
+		max-width: 1000px;
+	}
+	
+}

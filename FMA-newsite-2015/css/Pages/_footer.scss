@@ -1,0 +1,86 @@
+footer {
+
+	background-color: $dark-gray;
+	color: $light-gray;
+	padding: 2.75em 0;
+
+	@media screen and (max-width: 1000px) {
+		padding: 0;
+	}
+
+	b {
+		color: $secondary-color;
+		font-weight: normal;
+		font-size: 1.5em;
+	}
+
+	a {
+		color: $light-gray;
+		text-decoration: none;
+
+		&:hover {
+			color: $primary-color;
+		}
+	}
+
+	li {
+		margin-bottom: 5px;
+	}
+
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		text-align: left;
+		float: left;
+
+		@media screen and (max-width: 660px) {
+			float: none;
+			display: block;
+			width: 100%;
+			text-align: center;
+			margin: 0 auto 1em;
+		}
+	}
+
+	.social-nav li {
+		display: inline-block;
+		margin-right: 5px;
+
+		&:first-child {
+			display: block;
+			margin-bottom: 5px;
+		}
+
+	}
+
+	.social-nav {
+		width: 65%;
+
+		img {
+			height: 32px;
+			width: 32px;
+		}
+
+			.questions {
+				display: block;
+			}
+	}
+
+	.support-nav {
+		width: 17.5%;
+
+		@media screen and (max-width: 660px) {
+			width: 100%;
+		}
+	}
+
+	.advertisers-nav {
+		width: 17.5%;
+
+		@media screen and (max-width: 660px) {
+			width: 100%;
+		}
+	}
+}

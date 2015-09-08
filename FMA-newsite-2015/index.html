@@ -1,0 +1,329 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>FreeMyApps</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <script type="text/javascript">
+    WebFontConfig = {
+        google: { families: [ 'Lato:300,300italic,700:latin' ] }
+    };
+    (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+    })(); </script>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script>
+    jQuery(document).ready(function(){
+        $('.open-popup-link').magnificPopup({
+            type:'inline',
+            midClick: true
+        });
+    });
+    </script>
+
+    <script>
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+          }, 1000);
+            return false;
+        }
+    }
+});
+  });
+    </script>
+
+    <script>
+    new WOW().init();
+    </script>
+
+    <script>
+    $(document).ready(function () {
+
+
+     var  mn = $(".main-nav");
+     mns = "fixed-nav";
+
+     $(window).scroll(function() {
+      if( $(this).scrollTop() > 35 ) {
+        mn.addClass(mns);
+    } else {
+        mn.removeClass(mns);
+    }
+});
+ });
+
+    </script>
+
+     <script>
+    $(document).ready(function () {
+
+
+     var  mn = $(".responsive-nav");
+     mns = "fixed-nav2";
+
+     $(window).scroll(function() {
+      if( $(this).scrollTop() > 35 ) {
+        mn.addClass(mns);
+    } else {
+        mn.removeClass(mns);
+    }
+});
+ });
+
+    </script>
+
+     <script>
+        $(document).ready(function() {
+            $(".responsive").hide();
+            $(".menu").on("click", function(){
+                $(".responsive").fadeToggle();
+                event.preventDefault();
+                });
+            $(".nav-itemb").on("click", function() {
+                $(".responsive").hide();
+                event.preventDefault();
+            });
+        });
+</script>
+</head>
+<body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <![endif]-->
+
+            <nav class="client-nav">
+                <ul>
+                    <li>For Publishers:</li>
+                    <li><a href="advertise.html">Advertise with us</a></li>
+                    <li><a href="https://dashboard.fiksu.com/self_serve/signin">Log in</a></li>
+                </ul>
+            </nav>
+            <nav class="main-nav group">
+                <a href="index.html"><img src="images/nav-logo.png" class="nav-logo" alt="FreeMyApps"></a>
+                <ul class="default-nav">
+                    <li><a href="#apps">The apps</a></li>
+                    <li><a href="#rewards">The rewards</a></li>
+                    <li><a href="#how">How it works</a></li>
+                    <li><a href="#getstarted">Get started</a></li>
+                    <li><a href="http://freemyapps.zendesk.com">Help</a></li>
+                </ul>  
+            </nav>
+
+            <div class="responsive-nav">
+                <a href="index.html"><img src="images/nav-logo.png" class="nav-logo" alt="FreeMyApps"></a>
+                <p><a href="#" class="menu">MENU</a></p>
+                <ul class="responsive">
+                    <li><a href="#apps" class="nav-itemb">The apps</a></li>
+                    <li><a href="#rewards" class="nav-itemb">The rewards</a></li>
+                    <li><a href="#how" class="nav-itemb">How it works</a></li>
+                    <li><a href="#getstarted" class="nav-itemb">Get started</a></li>
+                    <li><a href="http://freemyapps.zendesk.com">Help</a></li>
+                </ul>
+            </div>
+
+            <header class="index-header">
+                <div class="index-container group">
+                    <div class="header-left">
+                        <h1>Discover Great Apps &amp; Games. Get Rewarded.</h1>
+                        <p>With FreeMyApps, you can get great gift cards just for downloading and interacting with new apps &amp; games. The more apps you download, the more apps you will see.</p>
+                        <a href="#how"><button class="main-button">See how it works</button></a>
+                    </div>
+                    <img src="images/appstronaut-header.png" class="appstronaut-header">
+                </div>
+                <img src="images/planet-ground.png" class="ground">
+            </header>
+            <section id="apps" class="discover-apps">
+                <div class="index-container group"><div class="left"><img src="images/ibotta-app-icon.png" class="ibotta"><img src="images/pepsi-pass-icon.png" class="pepsi"><img src="images/draftkings-icon.png" class="draftkings"><img src="images/appstronaut-discover.png" alt="Appstronaut looking at phone" class="appstronaut-discover"><img src="images/cloud-apps-bg.png" class="clouds"></div><div class="right"><h2>Find your new favorite app</h2><p>Use FreeMyApps to discover great new apps and games. All downloads are free and quick to download, and for using the apps you'll receive credits that can be redeemed for real gift cards. Offers are all endorsed by the app developers, who are looking to get their apps discovered!</p></div></div>
+            </section>
+            <section id="rewards" class="get-rewards">
+                <div class="index-container group"><div class="left"><h2>Nearly $27 Million worth of rewards purchased</h2><p>Our sponsors want you to be the first to experience their new Apps, and as a way of encouragement they assign credits to each app you download. Once you open the app and given it a test-drive, you can build up your credits and exchange them for valuable Gift Cards.</p><a href="#rewards-popup" class="open-popup-link"><button class="main-button">See what your credits get you</button></a></div><div class="right"><img src="images/yellowstar.png" class="star yellowstar1"><img src="images/yellowstar.png" class="star yellowstar2"><img src="images/yellowstar.png" class="star yellowstar3"><img src="images/yellowstar.png" class="star yellowstar4"><img src="images/yellowstar.png" class="star yellowstar5"><img src="images/whitestar.png" class="star whitestar1"><img src="images/whitestar.png" class="star whitestar2"><img src="images/whitestar.png" class="star whitestar3"><img src="images/whitestar.png" class="star whitestar4"><img src="images/whitestar.png" class="star whitestar5"><img src="images/giftcards.png" class="giftcards"></div></div>
+            </section>
+
+            <div id="rewards-popup" class="white-popup mfp-hide">
+                <div class="rewards-table">
+                    <div><h3>Redeeming your credits for gift cards</h3></div>
+                    <div>
+                        <table>
+                            <tr>
+                                <td rowspan="4"><img src="itunesgiftcard.png"></td>
+                                <td>$10 iTunes Gift Card</td>
+                                <td><b>3,000 credits</b></td>
+                            </tr>
+                            <tr>
+                                <td>$10 iTunes Gift Card</td>
+                                <td><b>3,000 credits</b></td>
+                            </tr>
+                            <tr>
+                                <td>$10 iTunes Gift Card</td>
+                                <td><b>3,000 credits</b></td>
+                            </tr>
+                            <tr>
+                                <td>$10 iTunes Gift Card</td>
+                                <td><b>3,000 credits</b></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div>
+                        <table>
+                            <tr>
+                                <td rowspan="6"><img src="amazongiftcard.png"></td>
+                                <td>$1 Amazon Gift Card</td>
+                                <td><b>300 credits</b></td>
+                            </tr>
+                            <tr>
+                                <td>$2 Amazon Gift Card</td>
+                                <td><b>600 credits</b></td>
+                            </tr>
+                            <tr>
+                                <td>$5 Amazon Gift Card</td>
+                                <td><b>1,500 credits</b></td>
+                            </tr>
+                            <tr>
+                                <td>$10 Amazon Gift Card</td>
+                                <td><b>3,000 credits</b></td>
+                            </tr>
+                            <tr>
+                                <td>$15 Amazon Gift Card</td>
+                                <td><b>4,500 credits</b></td>
+                            </tr>
+                            <tr>
+                                <td>$25 Amazon Gift Card</td>
+                                <td><b>7,500 credits</b></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div>
+                        <table>
+                            <tr>
+                                <td rowspan="2"><img src="itunesgiftcard.png"></td>
+                                <td>$10 Google Play Gift Card</td>
+                                <td><b>3,000 credits</b></td>
+                            </tr>
+                            <tr>
+                                <td>$25 Google Play Gift Card</td>
+                                <td><b>7,500 credits</b></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div>
+                        <table>
+                            <tr>
+                                <td><img src="hulugiftcard.png"></td>
+                                <td>Hulu+ 1 Month Subscription</td>
+                                <td><b>2,400 credits</b></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div>
+                        <table>
+                            <tr>
+                                <td><img src="fandangogiftcard.png"></td>
+                                <td>$10 Fandango Bucks Gift Card</td>
+                                <td><b>3,000 credits</b></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <section class="steps" id="how">
+                <div class="index-container">
+                    <h2>How does FreeMyAppsWork?</h2>
+                    <div class="youtube-embed">
+                        <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/irTzldO9S2M" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <ul class="group">
+                        <li class="wow fadeInDown"><h3>1</h3><p>Visit freemyapps.com on your Apple device or go to GooglePlay store to download the app if you are an Android user.</p></li>
+                        <li class="wow fadeInDown" data-wow-delay=".5s"><h3>2</h3><p>If you are an Apple user, enroll using your secure device profile, and if you are an Android user, connect with Facebook.</p></li>
+                        <li class="wow fadeInDown" data-wow-delay="1s"><h3>3</h3><p>Download any of our great sponsor apps to earn credits.</p></li>
+                        <li class="wow fadeInDown" data-wow-delay="1.5s"><h3>4</h3><p>Redeem your credits to unlock any of our great gift cards.</p></li>
+                    </ul>
+                </div>
+            </section>
+            <section id="getstarted" class="started group">
+                <img src="images/apponaut-show.png" class="apponaut-show">
+                <div class="iPhone">
+                    <h2>Get started on iPhone</h2>
+                    <p>Simply use your safari browser on your iPhone, iPad or iPod Touch to access the FreeMyApps service at:</p>
+                    <a href="http://m.freemyapps.com"><button class="main-button">m.freemyapps.com</button></a>
+                </div>
+                <div class="android">
+                    <h2>Get started on Android</h2>
+                    <p>Go directly to Google Play and download FreeMyApps for your android device.</p>
+                    <img src="images/gplaybadge.png" alt="FreeMyApps on Google Play">
+                </div>
+            </section>
+            <section class="advertise-home">
+                <div class="index-container">
+                    <h2>Do you have a great app you'd like to promote?</h2>
+                    <a href="advertise.html"><button class="main-button">Advertise with us</button></a>
+                </div>
+            </section>
+            <footer>
+                <div class="index-container group">
+                    <ul class="social-nav">
+                        <li><b>Connect with us</b></li>
+                        <li><a href="https://www.facebook.com/FreeMyApps"><img src="images/facebook.png" alt="FreeMyApps on Facebook"></a></li>
+                        <li><a href="http://www.youtube.com/user/FreeMyAppsTube"><img src="images/youtube.png" alt="FreeMyApps on YouTube"></a></li>
+                        <li><a href="https://twitter.com/FreeMyApps"><img src="images/twitter.png" alt="FreeMyApps on Twitter"></a></li>                
+                        <li><a href="http://pinterest.com/freemyapps/"><img src="images/pinterest.png" alt="FreeMyApps on Pinterest"></a></li>
+                        <li><a href="http://instagram.com/officialfreemyapps"><img src="images/instagram.png" alt="FreeMyApps on Instagram"></a></li>
+                        <li class="questions">Questions: <a href="mailto:support@freemyapps.com">support@freemyapps.com</a></li>
+                    </ul>
+                    <ul class="support-nav">
+                        <li><b>Support</b></li>
+                        <li><a href="https://freemyapps.zendesk.com/hc/en-us">FAQs</a></li>
+                        <li><a href="https://freemyapps.zendesk.com/hc/en-us/requests/new">Help</a></li>
+                        <li><a href="terms.html">Terms &amp; Conditions<a/></li>
+                        <li><a href="privacy.html">Privacy</a></li>
+                    </ul>
+                    <ul class="advertisers-nav">
+                        <li><b>Advertisers</b></li>
+                        <li><a href="https://dashboard.fiksu.com/self_serve/signin">Log in</a></li>
+                        <li><a href="advertise.html">Advertise with us</a></li>
+                    </ul>
+                </div>
+            </footer>
+            <script src="js/plugins.js"></script>
+            <script src="js/main.js"></script>
+
+            <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+            <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+            </script>
+        </body>
+        </html>
