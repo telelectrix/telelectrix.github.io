@@ -1106,6 +1106,9 @@ header {
       box-sizing: border-box; } }
   .started h2, .started p {
     width: 270px; }
+    @media screen and (max-width: 420px) {
+      .started h2, .started p {
+        width: 70%; } }
   .started h2 {
     margin-top: 170px;
     font-size: 1.5em; }

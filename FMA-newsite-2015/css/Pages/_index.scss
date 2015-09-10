@@ -979,6 +979,10 @@ header {
 
 	h2, p {
 		width: 270px;
+
+		@media screen and (max-width: 420px) {
+			width: 70%;
+		}
 	}
 
 	h2 {
