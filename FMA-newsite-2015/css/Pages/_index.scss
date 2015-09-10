@@ -1007,15 +1007,24 @@ header {
 			box-sizing: border-box;
 			padding-top: 200px;
 		}
+
 	}
 
 	.iPhone {
 		background: url('../images/iphone-getstarted.png') no-repeat center bottom;
+
+		@media screen and (max-width: 420px) {
+			background-size: 88%;
+		}
 	}
 
 	.android {
 		background: url('../images/android-getstarted.png') no-repeat center bottom;
 		background-color: darken($secondary-color, 5%);
+
+		@media screen and (max-width: 420px) {
+			background-size: 88%;
+		}
 
 		img {
 			width: 250px;

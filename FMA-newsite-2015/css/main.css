@@ -1128,9 +1128,15 @@ header {
         padding-top: 200px; } }
   .started .iPhone {
     background: url("../images/iphone-getstarted.png") no-repeat center bottom; }
+    @media screen and (max-width: 420px) {
+      .started .iPhone {
+        background-size: 88%; } }
   .started .android {
     background: url("../images/android-getstarted.png") no-repeat center bottom;
     background-color: #47b0b4; }
+    @media screen and (max-width: 420px) {
+      .started .android {
+        background-size: 88%; } }
     .started .android img {
       width: 250px;
       height: auto; }
