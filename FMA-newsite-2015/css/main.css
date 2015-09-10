@@ -203,6 +203,9 @@ header {
   @media screen and (max-width: 785px) {
     .index-header {
       height: 750px; } }
+  @media screen and (max-width: 440px) {
+    .index-header {
+      height: 820px; } }
   .index-header .header-left {
     max-width: 640px;
     float: left;

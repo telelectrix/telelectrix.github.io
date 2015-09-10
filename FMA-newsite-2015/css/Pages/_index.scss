@@ -17,6 +17,10 @@ header {
 		height: 750px;
 	}
 
+	@media screen and (max-width: 440px) {
+		height: 820px;
+	}
+
 	.header-left {
 		max-width: 640px;
 		float: left;
