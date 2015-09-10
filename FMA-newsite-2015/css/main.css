@@ -1129,6 +1129,10 @@ header {
         height: 500px;
         box-sizing: border-box;
         padding-top: 200px; } }
+    @media screen and (max-width: 420px) {
+      .started .iPhone, .started .android {
+        height: 450px;
+        padding-top: 170px; } }
   .started .iPhone {
     background: url("../images/iphone-getstarted.png") no-repeat center bottom; }
     @media screen and (max-width: 420px) {
