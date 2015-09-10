@@ -69,51 +69,51 @@
     $(document).ready(function () {
 
 
-     var  mn = $(".main-nav");
-     mns = "fixed-nav";
+       var  mn = $(".main-nav");
+       mns = "fixed-nav";
 
-     $(window).scroll(function() {
-      if( $(this).scrollTop() > 35 ) {
-        mn.addClass(mns);
-    } else {
-        mn.removeClass(mns);
-    }
-});
- });
+       $(window).scroll(function() {
+          if( $(this).scrollTop() > 35 ) {
+            mn.addClass(mns);
+        } else {
+            mn.removeClass(mns);
+        }
+    });
+   });
 
     </script>
 
-     <script>
+    <script>
     $(document).ready(function () {
 
 
-     var  mn = $(".responsive-nav");
-     mns = "fixed-nav2";
+       var  mn = $(".responsive-nav");
+       mns = "fixed-nav2";
 
-     $(window).scroll(function() {
-      if( $(this).scrollTop() > 35 ) {
-        mn.addClass(mns);
-    } else {
-        mn.removeClass(mns);
-    }
-});
- });
+       $(window).scroll(function() {
+          if( $(this).scrollTop() > 35 ) {
+            mn.addClass(mns);
+        } else {
+            mn.removeClass(mns);
+        }
+    });
+   });
 
     </script>
 
-     <script>
-        $(document).ready(function() {
-            $(".responsive").hide();
-            $(".menu").on("click", function(){
-                $(".responsive").fadeToggle();
-                event.preventDefault();
-                });
-            $(".nav-itemb").on("click", function() {
-                $(".responsive").hide();
-                event.preventDefault();
-            });
+    <script>
+    $(document).ready(function() {
+        $(".responsive").hide();
+        $(".menu").on("click", function(){
+            $(".responsive").fadeToggle();
+            event.preventDefault();
         });
-</script>
+        $(".nav-itemb").on("click", function() {
+            $(".responsive").hide();
+            event.preventDefault();
+        });
+    });
+    </script>
 </head>
 <body>
         <!--[if lt IE 8]>
@@ -153,22 +153,41 @@
             <header class="index-header">
                 <div class="index-container group">
                     <div class="header-left">
-                        <h1>Discover Great Apps &amp; Games. Get Rewarded.</h1>
-                        <p>With FreeMyApps, you can get great gift cards just for downloading and interacting with new apps &amp; games. The more apps you download, the more apps you will see.</p>
+                        <h1>Discover New Apps &amp; Games. Get Free Gift Cards.</h1>
+                        <p>Over 50 free gift cards to choose from, including iTunes, Google Play, and Amazon.com. Just download our sponsored apps to start earning.</p>
                         <a href="#how"><button class="main-button">See how it works</button></a>
                     </div>
                     <img src="images/appstronaut-header.png" class="appstronaut-header">
                 </div>
                 <img src="images/planet-ground.png" class="ground">
             </header>
-            <section id="apps" class="discover-apps">
-                <div class="index-container group"><div class="left"><img src="images/ibotta-app-icon.png" class="ibotta"><img src="images/pepsi-pass-icon.png" class="pepsi"><img src="images/draftkings-icon.png" class="draftkings"><img src="images/appstronaut-discover.png" alt="Appstronaut looking at phone" class="appstronaut-discover"><img src="images/cloud-apps-bg.png" class="clouds"></div><div class="right"><h2>Find your new favorite app</h2><p>Use FreeMyApps to discover great new apps and games. All downloads are free and quick to download, and for using the apps you'll receive credits that can be redeemed for real gift cards. Offers are all endorsed by the app developers, who are looking to get their apps discovered!</p></div></div>
-            </section>
+
+
+            <!--
             <section id="rewards" class="get-rewards">
-                <div class="index-container group"><div class="left"><h2>Nearly $27 Million worth of rewards purchased</h2><p>Our sponsors want you to be the first to experience their new Apps, and as a way of encouragement they assign credits to each app you download. Once you open the app and given it a test-drive, you can build up your credits and exchange them for valuable Gift Cards.</p><a href="#rewards-popup" class="open-popup-link"><button class="main-button">See what your credits get you</button></a></div><div class="right"><img src="images/yellowstar.png" class="star yellowstar1"><img src="images/yellowstar.png" class="star yellowstar2"><img src="images/yellowstar.png" class="star yellowstar3"><img src="images/yellowstar.png" class="star yellowstar4"><img src="images/yellowstar.png" class="star yellowstar5"><img src="images/whitestar.png" class="star whitestar1"><img src="images/whitestar.png" class="star whitestar2"><img src="images/whitestar.png" class="star whitestar3"><img src="images/whitestar.png" class="star whitestar4"><img src="images/whitestar.png" class="star whitestar5"><img src="images/giftcards.png" class="giftcards"></div></div>
+                <div class="index-container group"><div class="left"><h2>$27 Million in free gift cards rewarded</h2><p>Our sponsors want you to be the first to experience their new Apps, and as a way of encouragement they assign credits to each app you download. Once you open the app and given it a test-drive, you can build up your credits and exchange them for valuable Gift Cards.</p><a href="#rewards-popup" class="open-popup-link"><button class="main-button">See what your credits get you</button></a></div><div class="right"><img src="images/yellowstar.png" class="star yellowstar1"><img src="images/yellowstar.png" class="star yellowstar2"><img src="images/yellowstar.png" class="star yellowstar3"><img src="images/yellowstar.png" class="star yellowstar4"><img src="images/yellowstar.png" class="star yellowstar5"><img src="images/whitestar.png" class="star whitestar1"><img src="images/whitestar.png" class="star whitestar2"><img src="images/whitestar.png" class="star whitestar3"><img src="images/whitestar.png" class="star whitestar4"><img src="images/whitestar.png" class="star whitestar5"><img src="images/giftcards.png" class="giftcards"></div></div>
+            </section> -->
+
+            <section id="apps" class="discover-apps">
+                <div class="index-container">
+                    <h1>$27 Million in free gift cards rewarded</h1>
+                    <div class="vertical-align">
+                        <div class="left"><img src="images/amazon-card.png" class="amazon"><img src="images/apple-card.png" class="apple-card
+                        "><img src="images/googleplay-card.png" class="googleplay"><img src="images/hulu-card.png" class="hulu"><img src="images/steam-card.png" class="steam"><img src="images/appstronaut-discover.png" alt="Appstronaut looking at phone" class="appstronaut-discover"><img src="images/cloud-apps-bg.png" class="clouds"></div>
+                        <div class="right"><p class="quote">&quot;Fiksu has helped us better identify our key opportunities on mobile and the audience segments that we should target. They've also brought us an international vision and knowledge of the mobile market.&quot;</p><p><img src="images/client-quote-image.png" class="quote-image"></div>
+                    </div>
+                </div>
+                <div style="clear:both;"></div>
             </section>
 
-            <div id="rewards-popup" class="white-popup mfp-hide">
+            <section class="more-cards group">
+                <div class="index-container">
+                <h2>Want even more free gift cards?</h2>
+                <p>Earn additional credits by referring your friends, entering our social media contests, or completing other offers on the web.</p>
+                </div>
+            </section>
+
+            <!-- <div id="rewards-popup" class="white-popup mfp-hide">
                 <div class="rewards-table">
                     <div><h3>Redeeming your credits for gift cards</h3></div>
                     <div>
@@ -253,19 +272,19 @@
                         </table>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <section class="steps" id="how">
-                <div class="index-container">
+
+                <div class="index-container group">
                     <h2>How does FreeMyApps Work?</h2>
                     <div class="youtube-embed">
                         <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/irTzldO9S2M" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <ul class="group">
-                        <li class="wow fadeInDown"><h3>1</h3><p>Visit freemyapps.com on your Apple device or go to GooglePlay store to download the app if you are an Android user.</p></li>
-                        <li class="wow fadeInDown" data-wow-delay=".5s"><h3>2</h3><p>If you are an Apple user, enroll using your secure device profile, and if you are an Android user, connect with Facebook.</p></li>
-                        <li class="wow fadeInDown" data-wow-delay="1s"><h3>3</h3><p>Download any of our great sponsor apps to earn credits.</p></li>
-                        <li class="wow fadeInDown" data-wow-delay="1.5s"><h3>4</h3><p>Redeem your credits to unlock any of our great gift cards.</p></li>
+                        <li class="wow fadeInDown"><h3>1</h3><p>Enroll in FreeMyApps</p></li>
+                        <li class="wow fadeInDown" data-wow-delay=".5s"><h3>2</h3><p>Earn credits by downloading new apps and games</p></li>
+                        <li class="wow fadeInDown" data-wow-delay="1s"><h3>3</h3><p>Redeem your credits for free gift cards</p></li>
                     </ul>
                 </div>
             </section>
@@ -273,18 +292,18 @@
                 <img src="images/apponaut-show.png" class="apponaut-show">
                 <div class="iPhone">
                     <h2>Get started on iPhone</h2>
-                    <p>Simply use your safari browser on your iPhone, iPad or iPod Touch to access the FreeMyApps service at:</p>
-                    <a href="http://m.freemyapps.com"><button class="main-button">m.freemyapps.com</button></a>
+                    <p>Use your Safari browser on your Apple device and go to:</p>
+                    <a href="http://m.freemyapps.com"><button class="main-button">freemyapps.com</button></a>
                 </div>
                 <div class="android">
                     <h2>Get started on Android</h2>
-                    <p>Go directly to Google Play and download FreeMyApps for your android device.</p>
+                    <p>Download FreeMyApps directly from the Google Play store</p>
                     <img src="images/gplaybadge.png" alt="FreeMyApps on Google Play">
                 </div>
             </section>
             <section class="advertise-home">
                 <div class="index-container">
-                    <h2>Do you have a great app you'd like to promote?</h2>
+                    <h2>Do you have an app you'd like to promote?</h2>
                     <a href="advertise.html"><button class="main-button">Advertise with us</button></a>
                 </div>
             </section>
