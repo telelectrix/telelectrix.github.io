@@ -21,9 +21,17 @@
 		font-size: 1em;
 		text-align: left;
 
+		@media screen and (max-width: 1000px) {
+			padding: 0;
+		}
+
 		h1 {
 			color: $primary-color;
 			margin-bottom: .5em;
+
+			@media screen and (max-width: 1050px) {
+				font-size: 2.75em;
+			}
 		}
 
 		button {
@@ -38,9 +46,17 @@
 		margin: 0 0 .5em 1.25em;
 		padding: 0;
 
+		@media screen and (max-width: 1050px) {
+			font-size: 1.25em;
+		}
+
 		strong {
 			font-size: 2.16em;
 			font-weight: normal;
+
+			@media screen and (max-width: 1050px) {
+				font-size: 1.75em;
+			}
 		}
 	}
 
@@ -49,6 +65,17 @@
 		float: left;
 		box-sizing: border-box;
 		padding-top: 2em;
+
+		@media screen and (max-width: 1050px) {
+			width: 50%;
+		}
+
+		@media screen and (max-width: 900px) {
+			width: 100%;
+			float: none;
+			text-align: center;
+			margin-bottom: 2.5em;
+		}
 	}
 
 	.header-right {
@@ -61,6 +88,16 @@
 			max-width: 100%;
 			height: auto;
 		}
+
+		@media screen and (max-width: 1050px) {
+			width: 50%;
+		}
+
+		@media screen and (max-width: 900px) {
+			width: 100%;
+			float: none;
+			text-align: center;
+		}
 	}
 
 	.app-visibility {
@@ -69,6 +106,10 @@
 		box-sizing: border-box;
 		padding: $default-container-padding;
 		background-color: #fff;
+
+		@media screen and (max-width: 1000px) {
+			padding: 0;
+		}
 	}
 
 	.visibility {
@@ -93,6 +134,11 @@
 				height: auto;
 				margin-bottom: .5em;
 			}
+
+			@media screen and (max-width: 780px) {
+				display: block;
+				width: 100%;
+			}
 		}
 	}
 
@@ -101,12 +147,12 @@
 		width: 100%;
 		box-sizing: border-box;
 		text-align: center;
-		background-color: $dark-gray;
+		background-color: darken($secondary-color, 10%);
 		padding: $default-container-padding;
 		color: #fff;
 
-		h2 {
-			color: $primary-color;
+		@media screen and (max-width: 1000px) {
+			padding: 0;
 		}
 
 		ul {
@@ -120,6 +166,11 @@
 				height: 140px;
 				width: 170px;
 				vertical-align: top;
+
+				@media screen and (max-width: 780px) {
+					display: block;
+					width: 100%;
+				}
 			}
 
 			p {
@@ -138,6 +189,16 @@
 		background-color: #fff;
 		display: inline-block;
 
+
+		@media screen and (max-width: 1000px) {
+			padding: 0;
+		}
+
+
+		.index-container {
+			border-bottom: 1px solid #ddd;
+		}
+
 		.main-button {
 			margin-top: 1em;
 		}
@@ -147,14 +208,27 @@
 			vertical-align: middle;
 			box-sizing: border-box;
 			padding: 0 1em;
+
+			@media screen and (max-width: 780px) {
+				display: block;
+			}
+
 		}
 
 		.text-left, .text-right {
 			width: 60%;
+
+			@media screen and (max-width: 780px) {
+				width: 100%;
+			}
 		}
 
 		.img-left, .img-right {
 			text-align: center;
+
+			@media screen and (max-width: 780px) {
+				width: 100%;
+			}
 
 			img {
 				max-width: 100%;
@@ -172,12 +246,23 @@
 			padding: 0;
 		}
 
-		.container {
-			margin: 0 auto;
-			padding: 2.75em 0;
-			box-sizing: border-box;
-			border-bottom: 1px solid #ddd;
-		}
+	}
 
+
+	#freemyapps-form {
+		iframe {
+			width: 520px;
+			height: 900px;
+
+			@media screen and (max-width: 560px) {
+				width: 100%;
+			}
+		}
+	}
+
+	#contactus {
+		.index-container {
+			border-bottom: none;
+		}
 	}
 }
