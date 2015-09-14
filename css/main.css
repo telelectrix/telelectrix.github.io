@@ -277,12 +277,15 @@ p {
 
 .download {
   display: block;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  background: none;
   padding: 20px 30px;
-  background-color: #fff;
-  color: #0691f9;
+  color: #fff;
   text-decoration: none;
-  width: 160px;
-  margin: 15px auto 0; }
+  margin: 15px auto 0;
+  width: 270px;
+  box-sizing: border-box; }
 
 #header {
   background: url("../images/header-bg2.jpg") no-repeat center center fixed;
@@ -290,6 +293,16 @@ p {
   height: 650px;
   width: 100%;
   text-align: center; }
+  #header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    display: block;
+    margin: 0 auto;
+    width: 270px; }
+    #header a:hover .download {
+      background: #fff;
+      color: #2f3790; }
   #header img {
     z-index: 15;
     margin: auto;
@@ -307,7 +320,8 @@ p {
     color: #fff;
     width: 620px;
     margin: auto;
-    text-align: center; }
+    text-align: center;
+    font-size: 24px; }
     @media screen and (max-width: 620px) {
       #header p {
         width: 450px; } }
@@ -363,6 +377,30 @@ p {
 
 #shows {
   background-color: #f0f0f0; }
+  #shows ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+    #shows ul li {
+      display: block;
+      max-width: 650px;
+      padding: 10px;
+      border: 2px solid #2f3790;
+      margin: 0 auto 5px;
+      box-sizing: border-box;
+      text-transform: uppercase;
+      text-align: left; }
+      #shows ul li a {
+        text-decoration: none;
+        color: #2f3790; }
+        #shows ul li a:hover {
+          color: #fff; }
+      #shows ul li:hover {
+        background-color: #2f3790;
+        color: #fff;
+        border-color: #2f3790; }
+        #shows ul li:hover a {
+          color: #fff; }
 
 #music .video-container {
   margin: auto; }

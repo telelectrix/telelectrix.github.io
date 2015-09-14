@@ -41,15 +41,34 @@ p {
 
 .download {
 	display: block;
+	border: 2px solid #fff;
+	text-transform: uppercase;
+	background: none;
 	padding: 20px 30px;
-	background-color: #fff;
-	color: $purple;
+	color: #fff;
 	text-decoration: none;
-	width: 160px;
 	margin: 15px auto 0;
+	width: 270px;
+	box-sizing: border-box;
 }
 
 #header {
+
+	a {
+		text-decoration: none;
+		color: #fff;
+		font-size: 24px;
+		display: block;
+		margin: 0 auto;
+		width: 270px;
+
+		&:hover {
+			.download {
+				background: #fff;
+				color: $dark-purple;
+			}
+		}
+	}
 
 	img {
 		z-index: 15;
@@ -73,6 +92,7 @@ p {
 		width: 620px;
 		margin: auto;
 		text-align: center;
+		font-size: 24px;
 
 		@media screen and (max-width: 620px) {
 			width: 450px;
@@ -154,6 +174,42 @@ p {
 
 #shows {
 	background-color: #f0f0f0;
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+
+		li {
+			display: block;
+			max-width: 650px;
+			padding: 10px;
+			border: 2px solid $dark-purple;
+			margin: 0 auto 5px;
+			box-sizing: border-box;
+			text-transform: uppercase;
+			text-align: left;
+
+			a {
+				text-decoration: none;
+				color: $dark-purple;
+
+				&:hover {
+					color: #fff;
+				}
+			}
+
+			&:hover {
+				background-color: $dark-purple;
+				color: #fff;
+				border-color: $dark-purple;
+
+				a {
+					color: #fff;
+				}
+			}
+		}
+	}
 }
 
 
