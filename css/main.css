@@ -415,6 +415,8 @@ p {
 
 .soundcloud {
   margin-bottom: 50px; }
+  .soundcloud .g-background-default {
+    background-color: #fff; }
 
 #about {
   color: #fff;
