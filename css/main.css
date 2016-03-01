@@ -418,6 +418,15 @@ p {
   .soundcloud .g-background-default {
     background-color: #fff; }
 
+.video-js {
+  margin: 0 auto; }
+  .video-js .vjs-big-play-button {
+    background-color: #0691f9;
+    opacity: .8;
+    font-size: 4.5em; }
+    .video-js .vjs-big-play-button:hover {
+      background-color: #38a7fa; }
+
 #about {
   color: #fff;
   background: url("../images/ms_photo.jpg") no-repeat center center fixed;

@@ -234,3 +234,17 @@ p {
 		background-color: #fff;
 	}
 }
+
+.video-js {
+	margin: 0 auto;
+
+	.vjs-big-play-button {
+		background-color: $purple;
+		opacity: .8;
+		font-size: 4.5em;
+
+		&:hover {
+			background-color: lighten($purple, 10%);
+		}
+	}
+}
