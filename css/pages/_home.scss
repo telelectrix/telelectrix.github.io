@@ -83,7 +83,7 @@ p {
 			}
 
 			@media screen and (max-width: 710px) {
-				margin-top: 200px;
+				margin-top: 140px;
 			}
 	}
 
@@ -93,6 +93,7 @@ p {
 		margin: auto;
 		text-align: center;
 		font-size: 24px;
+		line-height: 30px;
 
 		@media screen and (max-width: 620px) {
 			width: 450px;
@@ -107,14 +108,15 @@ p {
 		}
 	}
 
-	background: url('../images/header-bg2.jpg') no-repeat center center fixed;
+	background: url('../images/header-bg2.jpg') no-repeat center top scroll;
 	background-size: cover;
 	height: 650px;
 	width: 100%;
 	text-align: center;
 
 	@media screen and (max-width: 710px) {
-		height: 450px;
+		height: 470px;
+		margin-top:65px;
 	}
 
 	

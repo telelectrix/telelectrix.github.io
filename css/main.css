@@ -288,7 +288,7 @@ p {
   box-sizing: border-box; }
 
 #header {
-  background: url("../images/header-bg2.jpg") no-repeat center center fixed;
+  background: url("../images/header-bg2.jpg") no-repeat center top scroll;
   background-size: cover;
   height: 650px;
   width: 100%;
@@ -315,13 +315,14 @@ p {
         height: auto; } }
     @media screen and (max-width: 710px) {
       #header img {
-        margin-top: 200px; } }
+        margin-top: 140px; } }
   #header p {
     color: #fff;
     width: 620px;
     margin: auto;
     text-align: center;
-    font-size: 24px; }
+    font-size: 24px;
+    line-height: 30px; }
     @media screen and (max-width: 620px) {
       #header p {
         width: 450px; } }
@@ -333,7 +334,8 @@ p {
         width: 280px; } }
   @media screen and (max-width: 710px) {
     #header {
-      height: 450px; } }
+      height: 470px;
+      margin-top: 65px; } }
 
 #music, #about, #shows, #contact {
   padding: 50px 10px;
@@ -644,7 +646,7 @@ p {
   top: 0;
   z-index: 1000;
   width: 100%;
-  background: rgba(255, 255, 255, 0.9); }
+  background: white; }
   @media screen and (max-width: 710px) {
     #responsive-nav {
       display: inline; } }
