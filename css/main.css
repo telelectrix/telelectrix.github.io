@@ -467,6 +467,14 @@ p {
     font-size: .9em;
     line-height: 1.7; }
 
+#dc-move {
+  background-color: #0c1326; }
+  #dc-move h1 {
+    color: #fff; }
+
+#dc-embed {
+  text-align: center; }
+
 #photos-header {
   color: #fff;
   background-color: #2f3790;
