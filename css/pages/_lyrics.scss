@@ -1,0 +1,41 @@
+#lyrics-header {
+	color: #fff;
+	background: url('../images/ms_photo.jpg') no-repeat center center fixed;
+	background-size: cover;
+	height: 500px;
+	padding-top: 220px;
+
+	@media screen and (max-width: 710px) {
+		margin-top: 50px;
+	}
+
+	@media screen and (max-width: 500px) {
+		height: 200px;
+		background: url('../images/ms_photo.jpg') no-repeat top center scroll;
+		background-size: cover;
+		padding-top: 40px;
+	}
+
+	h1 {
+		color: #fff;
+	}
+
+	p {
+		width: 75%;
+		margin: auto;
+
+		@media screen and (max-width: 500px) {
+			width: 85%;
+		}
+	}
+}
+
+#lyrics {
+	text-align: center;
+	
+	p { 
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 15px;
+	}
+}
