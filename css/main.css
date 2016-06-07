@@ -469,10 +469,10 @@ p {
 
 #lyrics-header {
   color: #fff;
-  background: url("../images/ms_photo.jpg") no-repeat center center fixed;
+  background: url("../images/header-bg.jpg") no-repeat center center fixed;
   background-size: cover;
-  height: 500px;
-  padding-top: 220px; }
+  height: 300px;
+  padding-top: 120px; }
   @media screen and (max-width: 710px) {
     #lyrics-header {
       margin-top: 50px; } }
