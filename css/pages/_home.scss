@@ -143,6 +143,10 @@ p {
 	.bcembed {
 		display: inline-block;
 		width: 400px;
+
+		@media screen and (max-width: 420px) {
+			width: 90%;
+		}
 	}
 }
 

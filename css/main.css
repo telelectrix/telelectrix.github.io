@@ -352,6 +352,9 @@ p {
 #music .bcembed {
   display: inline-block;
   width: 400px; }
+  @media screen and (max-width: 420px) {
+    #music .bcembed {
+      width: 90%; } }
 
 #newsletter {
   padding: 50px 10px;
