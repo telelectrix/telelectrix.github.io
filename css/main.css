@@ -349,7 +349,7 @@ p {
       #music h1, #about h1, #shows h1, #contact h1 {
         margin-bottom: 15px; } }
 
-#music div {
+#music .bcembed {
   display: inline-block;
   width: 400px; }
 
