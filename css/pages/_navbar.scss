@@ -3,6 +3,7 @@
 	position: fixed;
 	top: 0;
 	z-index: 20;
+	letter-spacing: 3px;
 	padding: 25px 40px;
 	width: 100%;
 	-webkit-transition: background-color 500ms ease;
@@ -24,7 +25,7 @@
 			font-weight: bold;
 			text-transform: uppercase;
 			list-style-type: none;
-			font-size: 18px;
+			font-size: 16px;
 			-webkit-transition: color 500ms ease;
     		-moz-transition: color 500ms ease;
     		-o-transition: color 500ms ease;

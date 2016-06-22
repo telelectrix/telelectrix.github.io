@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700);
 article,
 aside,
 details,
@@ -240,23 +242,24 @@ div, section, article, ul, li, p, nav, header, footer, aside, input {
   box-sizing: border-box; }
 
 body {
-  font-family: "Abel", Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased; }
 
 body {
-  font-family: "Abel", Helvetica, Arial, sans-serif; }
+  font-family: "Lato", Helvetica, Arial, sans-serif; }
 
 h1 {
-  font-family: "Abel", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: #2f3790;
-  font-size: 50px;
+  font-size: 32px;
+  letter-spacing: 3px;
   margin: auto;
   text-align: center; }
   @media screen and (max-width: 500px) {
     h1 {
-      font-size: 36px; } }
+      font-size: 24px; } }
 
 a {
   color: #0691f9; }
@@ -266,7 +269,7 @@ a {
     color: #0691f9; }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 30px;
   margin: 0;
   padding: 0; }
@@ -283,9 +286,15 @@ p {
   padding: 20px 30px;
   color: #fff;
   text-decoration: none;
-  margin: 15px auto 0;
+  margin: 25px auto 0;
+  transition: background-color .1s ease-in;
+  -webkit-transition: background-color .1s ease-in;
+  -moz-transition: background-color .1s ease-in;
   width: 270px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px; }
 
 #header {
   background: url("../images/header-bg2.jpg") no-repeat center top scroll;
@@ -318,7 +327,7 @@ p {
         margin-top: 120px; } }
   #header p {
     color: #fff;
-    width: 620px;
+    max-width: 650px;
     margin: auto;
     text-align: center;
     font-size: 24px;
@@ -366,17 +375,19 @@ p {
   width: 100%;
   background-color: #2f3790; }
   #newsletter h1 {
-    font-family: "Abel", Helvetica, Arial, sans-serif;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     color: #fff;
-    font-size: 50px;
+    font-size: 32px;
+    letter-spacing: 3px;
     margin: auto;
-    text-align: center; }
+    text-align: center;
+    font-weight: bold; }
     @media screen and (max-width: 500px) {
       #newsletter h1 {
         font-size: 36px; } }
   #newsletter p {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     line-height: 30px;
     color: #fff;
@@ -453,7 +464,14 @@ p {
   text-shadow: none;
   background-color: transparent;
   padding: 10px 20px;
-  margin-top: 5px; }
+  margin-top: 10px;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 14px;
+  transition: background-color .1s ease-in;
+  -webkit-transition: background-color .1s ease-in;
+  -moz-transition: background-color .1s ease-in; }
   .more-button:hover {
     background-color: #2f3790;
     color: #fff; }
@@ -461,7 +479,9 @@ p {
 #news {
   text-align: left; }
   #news h2 {
-    font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif; }
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase; }
   #news .press, #news .twitter, #news .instagram {
     display: inline-block;
     box-sizing: border-box;
@@ -471,7 +491,8 @@ p {
     width: 49%; }
     #news .press .press-block img {
       max-width: 100%;
-      height: auto; }
+      height: auto;
+      margin: 5px 0; }
     #news .press .press-block a {
       text-decoration: none;
       color: #2f3790; }
@@ -479,16 +500,18 @@ p {
         color: #3c46b6; }
     #news .press .press-block h3 {
       margin-bottom: 5px;
-      text-transform: uppercase;
-      font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif; }
+      font-family: "Montserrat", Helvetica, Arial, sans-serif;
+      font-size: 18px; }
     #news .press .press-block p {
       font-size: 14px;
-      line-height: 20px; }
+      line-height: 22px;
+      color: #3e3e3e; }
   #news .twitter, #news .instagram {
     width: 25%; }
     #news .twitter img, #news .instagram img {
       max-width: 100%;
-      height: auto; }
+      height: auto;
+      margin-bottom: 10px; }
   #news .content-container {
     max-width: 1000px;
     margin: 0 auto; }
@@ -576,11 +599,11 @@ a.timeline-widget {
   height: 100%; }
   #dc-move h1 {
     color: #fff;
-    font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     margin: 0 auto 15px; }
   #dc-move h2, #dc-move h3 {
     color: #fff;
-    font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     margin-bottom: 0;
     text-transform: uppercase; }
   #dc-move footer {
@@ -606,7 +629,7 @@ a.timeline-widget {
     font-size: 16px;
     line-height: 20px;
     color: #fff;
-    font-family: "Abel", Helvetica, Arial, sans-serif; }
+    font-family: "Lato", Helvetica, Arial, sans-serif; }
     #dc-embed p a {
       color: #fff; }
       #dc-embed p a:hover, #dc-embed p a:visited, #dc-embed p a:active {
@@ -628,7 +651,7 @@ a.timeline-widget {
     font-size: 13px;
     line-height: 20px;
     color: #fff;
-    font-family: "Abel", Helvetica, Arial, sans-serif; }
+    font-family: "Lato", Helvetica, Arial, sans-serif; }
 
 #move-credits {
   text-align: center;
@@ -638,7 +661,7 @@ a.timeline-widget {
     font-size: 13px;
     line-height: 20px;
     color: #fff;
-    font-family: "Abel", Helvetica, Arial, sans-serif; }
+    font-family: "Lato", Helvetica, Arial, sans-serif; }
 
 #photos-header {
   color: #fff;
@@ -662,7 +685,7 @@ a.timeline-widget {
         width: 85%; } }
   #photos-header .box {
     padding: 0;
-    font-family: "Abel", Helvetica, Arial, sans-serif;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: normal;
     display: -webkit-flex;
@@ -745,6 +768,7 @@ a.timeline-widget {
   position: fixed;
   top: 0;
   z-index: 20;
+  letter-spacing: 3px;
   padding: 25px 40px;
   width: 100%;
   -webkit-transition: background-color 500ms ease;
@@ -760,11 +784,11 @@ a.timeline-widget {
       color: #fff;
       display: inline-block;
       margin-right: 20px;
-      font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
+      font-family: "Montserrat", Helvetica, Arial, sans-serif;
       font-weight: bold;
       text-transform: uppercase;
       list-style-type: none;
-      font-size: 18px;
+      font-size: 16px;
       -webkit-transition: color 500ms ease;
       -moz-transition: color 500ms ease;
       -o-transition: color 500ms ease;
@@ -817,7 +841,7 @@ a.timeline-widget {
 
 #responsive-nav {
   display: none;
-  font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight: bold;
   position: fixed;
@@ -831,7 +855,7 @@ a.timeline-widget {
   #responsive-nav ul {
     list-style-type: none;
     text-transform: uppercase;
-    font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
     margin: 0;
     text-align: center;
     padding: 0;
