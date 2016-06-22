@@ -491,8 +491,18 @@ p {
     box-sizing: border-box;
     padding: 0 15px;
     vertical-align: top; }
+    @media screen and (max-width: 640px) {
+      #news .press, #news .twitter, #news .instagram {
+        display: block;
+        width: 100%;
+        padding: 15px;
+        margin: 0 auto; } }
   #news .press {
     width: 49%; }
+    @media screen and (max-width: 640px) {
+      #news .press {
+        width: 100%;
+        border-bottom: 1px solid #f0f1f3; } }
     #news .press .press-block img {
       max-width: 100%;
       height: auto;
@@ -510,8 +520,14 @@ p {
       font-size: 14px;
       line-height: 22px;
       color: #3e3e3e; }
+  @media screen and (max-width: 640px) {
+    #news .twitter {
+      border-bottom: 1px solid #f0f1f3; } }
   #news .twitter, #news .instagram {
     width: 25%; }
+    @media screen and (max-width: 640px) {
+      #news .twitter, #news .instagram {
+        width: 100%; } }
     #news .twitter img, #news .instagram img {
       max-width: 100%;
       height: auto;

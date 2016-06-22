@@ -326,9 +326,22 @@ p {
 		box-sizing: border-box;
 		padding: 0 15px;
 		vertical-align: top;
+
+		@media screen and (max-width: 640px) {
+			display: block;
+			width: 100%;
+			padding: 15px;
+			margin: 0 auto;
+		}
 	}
+
 	.press {
 		width: 49%;
+
+		@media screen and (max-width: 640px) {
+			width: 100%;
+			border-bottom: 1px solid #f0f1f3;
+		}
 
 		.press-block {
 
@@ -359,8 +372,19 @@ p {
 			}
 		}
 	}
+
+	.twitter {
+		@media screen and (max-width: 640px) {
+			border-bottom: 1px solid #f0f1f3;
+		}
+	}
+
 	.twitter, .instagram {
 		width: 25%;
+
+		@media screen and (max-width: 640px) {
+			width: 100%;
+		}
 
 		img {
 			max-width: 100%;
