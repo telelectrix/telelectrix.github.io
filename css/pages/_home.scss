@@ -212,6 +212,18 @@ p {
 		padding: 0;
 		margin: 0;
 
+		a {
+			text-decoration: none;
+			color: $dark-purple;
+			transition: color .1s ease;
+			-webkit-transition: color .1s ease;
+			-moz-transition: color .1s ease;
+
+			&:hover {
+				color: #fff;
+			}
+		}
+
 		li {
 			display: block;
 			max-width: 1000px;
@@ -220,15 +232,9 @@ p {
 			margin: 0 auto 5px;
 			box-sizing: border-box;
 			text-align: left;
-
-			a {
-				text-decoration: none;
-				color: $dark-purple;
-
-				&:hover {
-					color: #fff;
-				}
-			}
+			transition: background-color .1s ease;
+			-webkit-transition: background-color .1s ease;
+			-moz-transition: background-color .1s ease;
 
 			&:hover {
 				background-color: $dark-purple;
