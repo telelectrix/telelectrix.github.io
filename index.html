@@ -114,6 +114,20 @@
 </script>
 
 <script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+<script type="text/javascript" src="js/instafeed.min.js"></script>
+
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '1509975225',
+        clientId: '804fcf128efc4343a2fb4de7a2f8e704',
+        accessToken: '1509975225.804fcf1.c8b9eee34c9b4fe7bbb1c1d23dc0fde1',
+        limit: '3',
+        sortBy: 'most-recent',
+        resolution: 'low_resolution',
+    });
+    feed.run();
+</script>
 
 </head>
 <body>
@@ -159,7 +173,9 @@
 	<section id="music">
 		<h1>Music &amp; Video</h1>
     <div class="bcembed">
-    <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1533890080/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://telelectrix.bandcamp.com/album/move-ep">Move EP by Telelectrix</a></iframe></div>
+      <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1533890080/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://telelectrix.bandcamp.com/album/move-ep">Move EP by Telelectrix</a></iframe>
+    </div>
+    <iframe src="https://player.vimeo.com/video/171772246" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     <!---
     <p>Check out our performance on <a href="http://www.wccatv.com/video/sound-check">Soundcheck</a>, recorded live at the Middle East Upstairs!</p>
 		  <video id="my-video" class="video-js vjs-big-play-centered" controls preload="auto" width="640" height="480"
@@ -195,6 +211,29 @@
      <p><a href="https://www.facebook.com/events/1487513351495482/">3/21/2015</a> - Midnight Static (Telelectrix), Neighborhood Formula, &amp; Joe Sabourin - Lucky Dog Music Hall, Worcester, MA</p>
 		<p><a href="https://www.facebook.com/media/set/?set=a.343393805847471.1073741830.261049067415279&type=1&l=a5f5183716">1/31/2015</a> - Midnight Static (Telelectrix), Savory, &amp; The J Connection  - The Last Safe &amp; Deposit Company, Lowell, MA</p> -->
 	</section>
+  <section id="news">
+    <div class="content-container">
+      <div class="press">
+        <h2>PRESS</h2>
+        <div class="press-block">
+          <a href="http://www.vanyaland.com/2016/06/09/ep-premiere-telelectrix-ride-diverse-comet-electronic-pop-glory-move/"><h3>EP Premiere: Telelectrix ride a diverse comet to electronic-pop glory in 'Move'</h3></a>
+          <a href="http://www.vanyaland.com/2016/06/09/ep-premiere-telelectrix-ride-diverse-comet-electronic-pop-glory-move/"><img src="images/ep-press-item.jpg"></a>
+          <p>On their debut EP Move, which Vanyaland is honored to premiere today, the band that performed as CHVRCHES at our most recent Halloween show align more closely to the modern crop of 2010's indie electronics, then leapfrog backwards to traces of '90s European synthpop from the peak era of A Different Drum and further towards '70s prog and classic rock...</p>
+          <a href="http://www.vanyaland.com/2016/06/09/ep-premiere-telelectrix-ride-diverse-comet-electronic-pop-glory-move/"><button class="more-button">READ MORE</button></a>
+        </div>
+      </div>
+      <div class="twitter">
+        <h2>TWITTER</h2>
+        <div class="twitter-block">
+          <a class="twitter-timeline" data-tweet-limit="3" data-chrome="nofooter noheader" href="https://twitter.com/telelectrix">@Telelectrix</a> <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+      <div class="instagram">
+        <h2>INSTAGRAM</h2>
+        <div id="instafeed"></div>
+      </div>
+    </div>
+  </section>
 	<section id="contact">
 		<h1>Contact</h1>
 		<p>For booking or any other inquires, please contact <a href="mailto:hello@telelectrix.com">hello@telelectrix.com</a></p>
@@ -225,5 +264,17 @@
       <a href="https://plus.google.com/114926841092396436520" rel="publisher"></a>
 		</footer><!-- #colophon -->
 <script src="http://vjs.zencdn.net/5.7.1/video.js"></script>
+<script type="text/javascript">
+ jQuery('.twitter-block').on('DOMSubtreeModified propertychange',"#twitter-widget-0", function() {
+        jQuery(".twitter-timeline").contents().find(".timeline-Tweet-media").css("display", "none");
+        jQuery(".twitter-block").css("height", "100%");
+    });
+
+ window.setTimeout(function(){
+    $(".twitter-timeline").contents().find(".timeline-Tweet-author").css("font-family","'Abel', Helvetica, sans-serif");
+    $(".twitter-timeline").contents().find(".timeline-Tweet-text").css("font-family","'Abel', Helvetica, sans-serif");
+    $(".twitter-timeline").contents().find(".timeline-Tweet-retweetCredit").css("font-family","'Abel', Helvetica, sans-serif");
+  }, 1000);
+</script>
 </body>
 </html>
