@@ -411,7 +411,7 @@ p {
     margin: 0; }
     #shows ul li {
       display: block;
-      max-width: 100px;
+      max-width: 1000px;
       padding: 20px 10px;
       border: 2px solid #2f3790;
       margin: 0 auto 5px;
