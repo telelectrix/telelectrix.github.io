@@ -389,7 +389,7 @@ p {
     font-weight: bold; }
     @media screen and (max-width: 500px) {
       #newsletter h1 {
-        font-size: 36px; } }
+        font-size: 24px; } }
   #newsletter p {
     font-size: 16px;
     text-align: center;
