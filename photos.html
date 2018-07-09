@@ -10,7 +10,7 @@
 <!--<![endif]-->
 <head>
 	<meta name="viewport" content="width=device-width">
-	<meta name="description" content="Image gallery of Midnight Static.">
+	<meta name="description" content="Image gallery of Telelectrix">
 	<meta name="keywords" content="Telelectrix, Synthpop, Boston Bands, Boston Electronic, Synth rock">
   <meta property="og:image" content="http://telelectrix.com/images/band-3.jpg"/>
   <title>Telelectrix - Photos</title>
@@ -20,66 +20,18 @@
   <link rel="stylesheet" href="css/superslides.css">
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
-  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-  <script src="js/jquery-1.11.1.min.js"></script>
-  <script type="text/javascript">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+
+	<script type="text/javascript">
   $(document).ready(function(){
 
   // Hide div 2 by default
   $('#slides-2').hide();
 });
-  </script>
-
-  <script>
-  $(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html,body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
-          return false;
-        }
-      }
-    });
-  });
-  </script>
-
-  <script type="text/javascript">
-  $(document).ready(function(){       
-   var scroll_start = 0;
-   var startchange = $('#color-change');
-   var offset = startchange.offset();
-   if (startchange.length){
-     $(document).scroll(function() { 
-      scroll_start = $(this).scrollTop();
-      if(scroll_start > offset.top) {
-        $(".main").css('background-color', '#f0f0f0');
-        $(".amain").css('color', '#2f3790');
-        $(".bandcamp").css('background-position', '0 -13px');
-      } else {
-        $('.main').css('background-color', 'transparent');
-        $(".amain").css('color', '#fff');
-        $(".bandcamp").css('background-position', '0 0');
-      }
-    });
-   }
- });
-  </script>
-  <script>
-  $(document).ready(function() {
-    $(".responsive").hide();
-    $(".menu").on("click", function(){
-      $(".responsive").fadeToggle();
-      event.preventDefault();
-    });
-    $(".nav-itemb").on("click", function() {
-      $(".responsive").hide();
-      event.preventDefault();
-    });
-  });
   </script>
 
   <script>
@@ -139,38 +91,88 @@
   </section>
   <div id="color-change"></div>
   <section id="gallery">
-    <div id="slides-1">
-      <ul class="slides-container">
-        <li>
-          <img src="images/band-3.jpg" alt="Telelectrix Official Photo">
-          
-        </li>
-      </ul>
-      <nav class="slides-navigation">
-        <a href="#" class="next">Next</a>
-        <a href="#" class="prev">Previous</a>
-      </nav>
-    </div>
-    <div id="slides-2">
-      <ul class="slides-container">
-        <li>
-          <img src="images/61715-03.jpg" alt="Telectrix at Johnny D's in Somerville">
-          <div class="container">
-            Photo by Coleman Rogers Photography
-          </div>
-        </li>
-
-      </ul>
-      <nav class="slides-navigation">
-        <a href="#" class="next">Next</a>
-        <a href="#" class="prev">Previous</a>
-      </nav>
+  	<div class="image-row" id="slides-1">
+  		<div class="image-column">
+  			<a href="images/Boston_Digipix_01.jpg" data-fancybox data-caption="Photo by Boston DigiPix">
+    			<img src="images/Boston_Digipix_01.jpg" alt="Boston DigiPix - Telelectrix">
+    		</a>
+  		</div>
+  		<div class="image-column">
+  			<a href="images/Boston_Digipix_02.jpg" data-fancybox data-caption="Photo by Boston DigiPix">
+    			<img src="images/Boston_Digipix_02.jpg" alt="Boston DigiPix - Telelectrix">
+    		</a>
+    		<a href="images/Boston_Digipix_04.jpg" data-fancybox data-caption="Photo by Boston DigiPix">
+    			<img src="images/Boston_Digipix_04.jpg" alt="Boston DigiPix - Telelectrix">
+    		</a>
+  		</div>
+  		<div class="image-column">
+  			<a href="images/Boston_Digipix_03.jpg" data-fancybox data-caption="Photo by Boston DigiPix">
+    			<img src="images/Boston_Digipix_03.jpg" alt="Boston DigiPix - Telelectrix">
+    		</a>
+  		</div>
+  		<div class="image-column">
+  			<a href="images/Boston_Digipix_05.jpg" data-fancybox data-caption="Photo by Boston DigiPix">
+    			<img src="images/Boston_Digipix_05.jpg" alt="Boston DigiPix - Telelectrix">
+    		</a>
+  		</div>
+  	</div>
+    <div class="image-row" id="slides-2">
+    	<div class="image-column">
+  			<a href="images/LisaCzech-5723.jpg" data-fancybox data-caption="Photo by Lisa Czech Photography">
+    			<img src="images/LisaCzech-5723.jpg" alt="Lisa Czech Photography - Telelectrix">
+    		</a>
+    		<a href="images/LisaCzech-5781.jpg" data-fancybox data-caption="Photo by Lisa Czech Photography">
+    			<img src="images/LisaCzech-5781.jpg" alt="Lisa Czech Photography - Telelectrix">
+    		</a>
+    		<a href="images/LisaCzech-5829.jpg" data-fancybox data-caption="Photo by Lisa Czech Photography">
+    			<img src="images/LisaCzech-5829.jpg" alt="Lisa Czech Photography - Telelectrix">
+    		</a>
+    		<a href="images/LisaCzech-5841.jpg" data-fancybox data-caption="Photo by Lisa Czech Photography">
+    			<img src="images/LisaCzech-5841.jpg" alt="Lisa Czech Photography - Telelectrix">
+    		</a>
+    	</div>
+    	<div class="image-column">
+    		<a href="images/LisaCzech-5859.jpg" data-fancybox data-caption="Photo by Lisa Czech Photography">
+    			<img src="images/LisaCzech-5859.jpg" alt="Lisa Czech Photography - Telelectrix">
+    		</a>
+    		<a href="images/LisaCzech-5898.jpg" data-fancybox data-caption="Photo by Lisa Czech Photography">
+    			<img src="images/LisaCzech-5898.jpg" alt="Lisa Czech Photography - Telelectrix">
+    		</a>
+    		<a href="images/LisaCzech-5947.jpg" data-fancybox data-caption="Photo by Lisa Czech Photography">
+    			<img src="images/LisaCzech-5947.jpg" alt="Lisa Czech Photography - Telelectrix">
+    		</a>
+    	</div>
+    	<div class="image-column">
+    		<a href="images/LisaCzech-6054.jpg" data-fancybox data-caption="Photo by Lisa Czech Photography">
+    			<img src="images/LisaCzech-6054.jpg" alt="Lisa Czech Photography - Telelectrix">
+    		</a>
+    		<a href="images/LisaCzech-6080.jpg" data-fancybox data-caption="Photo by Lisa Czech Photography">
+    			<img src="images/LisaCzech-6080.jpg" alt="Lisa Czech Photography - Telelectrix">
+    		</a>
+    		<a href="images/LisaCzech-6152.jpg" data-fancybox data-caption="Photo by Lisa Czech Photography">
+    			<img src="images/LisaCzech-6152.jpg" alt="Lisa Czech Photography - Telelectrix">
+    		</a>
+    		<a href="images/LisaCzech-6457.jpg" data-fancybox data-caption="Photo by Lisa Czech Photography">
+    			<img src="images/LisaCzech-6457.jpg" alt="Lisa Czech Photography - Telelectrix">
+    		</a>
+    	</div>
+    	<div class="image-column">
+    		<a href="images/LisaCzech-6168.jpg" data-fancybox data-caption="Photo by Lisa Czech Photography">
+    			<img src="images/LisaCzech-6168.jpg" alt="Lisa Czech Photography - Telelectrix">
+    		</a>
+    		<a href="images/LisaCzech-6285.jpg" data-fancybox data-caption="Photo by Lisa Czech Photography">
+    			<img src="images/LisaCzech-6285.jpg" alt="Lisa Czech Photography - Telelectrix">
+    		</a>
+    		<a href="images/LisaCzech-5977.jpg" data-fancybox data-caption="Photo by Lisa Czech Photography">
+    			<img src="images/LisaCzech-5977.jpg" alt="Lisa Czech Photography - Telelectrix">
+    		</a>
+    	</div>
     </div>
   </section>
 </div>
 
 <footer>
- <p>&copy; 2016 Telelectrix. All rights reserved.</p>
+ <p>&copy; 2018 Telelectrix. All rights reserved.</p>
 </footer><!-- #colophon -->
 
 <script src="js/jquery.easing.1.3.js"></script>

@@ -792,6 +792,27 @@ a.timeline-widget {
     -webkit-transform: translate3d(0, -25%, 0);
     transform: translate3d(0, -25%, 0); }
 
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  max-width: 1100px;
+  margin: 24px auto;
+  box-sizing: border-box;
+  height: auto !important; }
+
+.image-column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px; }
+  .image-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    max-height: 400px;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center; }
+
 .main {
   position: fixed;
   top: 0;
