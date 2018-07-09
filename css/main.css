@@ -616,11 +616,39 @@ a.timeline-widget {
         width: 85%; } }
 
 #lyrics {
-  text-align: center; }
+  text-align: left;
+  display: flex;
+  flex-wrap: row-wrap;
+  max-width: 1100px;
+  margin: 24px auto; }
+  #lyrics h2 {
+    margin-bottom: 3px; }
+  #lyrics h3 {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0 0 6px 0;
+    padding: 0;
+    color: #2f3790; }
   #lyrics p {
     font-size: 14px;
     line-height: 18px;
     margin-bottom: 15px; }
+  #lyrics .lyrics-column {
+    width: 33%;
+    max-width: 33%;
+    padding: 0 4px;
+    box-sizing: border-box; }
+    @media screen and (max-width: 640px) {
+      #lyrics .lyrics-column {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 0 4px 0; } }
+  @media screen and (max-width: 1200px) {
+    #lyrics {
+      max-width: 90%; } }
+  @media screen and (max-width: 640px) {
+    #lyrics {
+      display: block; } }
 
 #dc-move {
   padding: 50px;
