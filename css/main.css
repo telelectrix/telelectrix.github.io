@@ -911,7 +911,10 @@ a.timeline-widget {
       -webkit-transition: color 500ms ease;
       -moz-transition: color 500ms ease;
       -o-transition: color 500ms ease;
-      transition: color 500ms ease; }
+      transition: color 500ms ease;
+      vertical-align: middle; }
+    .main .social .fa-lg {
+      vertical-align: middle; }
   @media screen and (max-width: 710px) {
     .main {
       display: none; } }
